@@ -5,7 +5,7 @@ from pydantic import BaseModel, HttpUrl
 
 
 class User(BaseModel):
-    user_handle: Optional[str]
+    user_handle: Optional[str] = None
     user_profile_url: Optional[str] = None
 
 
