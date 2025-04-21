@@ -20,8 +20,8 @@ setuptools.setup(
     ],
     install_requires=[
         'httpx>=0.23.0',
-        'requests>=2.28.0',
+        'requests==2.32.0',
         'imagesize>=1.4.0',
-        'pydantic==1.9.1'
+        'pydantic==2.11.3'
     ],
 )
